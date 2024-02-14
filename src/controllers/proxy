@@ -6,12 +6,24 @@ const proxy = async (req, res, next) => {
   // #swagger.tags = ['Proxy']
   // #swagger.description = 'This endpoint allows you to make requests grundfos API'
   try {
+    const urlencoded = new URLSearchParams();
+    Object.keys(req.body).forEach((key) => {
+      urlencoded.append(key, req.body[key]);
+    });
+
     const response = await axios.post(
       `${process.env.GRUNDFOS_API_URL}`,
-      req.body
+      urlencoded,
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          //   Authorization: `Basic ${process.env.GRUNDFOS_API_KEY}`,
+        },
+      }
     );
     return SuccessHandler(response.data, 200, res);
   } catch (error) {
+    console.log(error);
     return ErrorHandler(error.message, 500, req, res);
   }
 };

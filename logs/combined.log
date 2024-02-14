@@ -104,3 +104,43 @@
 {"date":"2024-02-14T21:06:06.999Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
 {"date":"2024-02-14T21:06:13.112Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
 {"date":"2024-02-14T21:06:35.937Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:14:35.686Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy/"}
+{"date":"2024-02-14T22:14:36.988Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:15.958Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy/"}
+{"date":"2024-02-14T22:15:15.986Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy/"}
+{"date":"2024-02-14T22:15:16.863Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:16.912Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:38.237Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy/"}
+{"date":"2024-02-14T22:15:38.252Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy/"}
+{"date":"2024-02-14T22:15:39.916Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:39.927Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:55.652Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/proxy/"}
+{"date":"2024-02-14T22:17:37.102Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:17:37.190Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:17:38.089Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:17:38.157Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:18:26.089Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:18:26.307Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:18:27.222Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:18:27.278Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:18:45.177Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:19:23.166Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:19:23.255Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:19:24.169Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:19:24.233Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:19:56.926Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:19:56.995Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:20:33.063Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:20:33.077Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:20:54.412Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:20:59.474Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:20:59.485Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:21:21.898Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:21:27.210Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:21:27.219Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:21:40.891Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:22:09.334Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:22:39.150Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:28:12.916Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:28:38.657Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-14T22:28:38.663Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}

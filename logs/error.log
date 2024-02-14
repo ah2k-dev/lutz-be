@@ -1,0 +1,11 @@
+{"date":"2024-02-14T22:14:36.988Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:16.863Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:16.912Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:39.916Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:15:39.927Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:17:38.089Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:17:38.157Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:18:27.222Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:18:27.278Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:19:24.169Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-14T22:19:24.233Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
