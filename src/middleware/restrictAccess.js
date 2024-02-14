@@ -4,7 +4,8 @@ module.exports = (req, res, next) => {
       "http://localhost:3001",
     ]; // add your own domains here
     // uncomment before deployment
-    // if (!allowOrigins.includes(req.headers["origin"])) {
+    // console.log(req.headers["origin"]);
+    // if (!allowOrigins.includes(req.headers["origin"]) || !req.headers["origin"]) {
     //   return res.status(401).json({
     //     message: "Not Authenticated",
     //   });
