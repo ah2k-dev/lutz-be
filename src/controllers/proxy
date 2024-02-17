@@ -1,14 +1,16 @@
 const ErrorHandler = require("../utils/ErrorHandler");
 const SuccessHandler = require("../utils/SuccessHandler");
 const axios = require("axios");
+const sendMail = require("../utils/sendMail");
 
 const proxy = async (req, res, next) => {
   // #swagger.tags = ['Proxy']
   // #swagger.description = 'This endpoint allows you to make requests grundfos API'
   try {
+    const { payload, extra } = req.body;
     const urlencoded = new URLSearchParams();
     Object.keys(req.body).forEach((key) => {
-      urlencoded.append(key, req.body[key]);
+      urlencoded.append(key, payload[key]);
     });
 
     const response = await axios.post(
@@ -21,6 +23,35 @@ const proxy = async (req, res, next) => {
         },
       }
     );
+
+    const htmlForMail = `
+      <h1>Following congigurations has been requested</h1>
+      <h2>Request</h2>
+      <table>
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+        </tr>
+        ${Object.keys(payload).map(
+          (key) => `
+            <tr>
+              <td>${key}</td>
+              <td>${payload[key]}</td>
+            </tr>
+          `
+        )}
+        ${Object.keys(extra).map(
+          (key) => `
+            <tr>
+              <td>${key}</td>
+              <td>${extra[key]}</td>
+            </tr>
+          `
+        )}
+      </table>
+    `;
+
+    // await sendMail("ah2k.dev@gmail.com", "Grundfos API Request", htmlForMail);
     return SuccessHandler(response.data, 200, res);
   } catch (error) {
     console.log(error);
