@@ -8,7 +8,7 @@ const sendMail = async (email, subject, html) => {
   const transport = createTransport(
     sendgridTransport({
       auth: {
-        api_key: "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",
+        api_key: process.env.NODEMAILER_API_KEY,
       },
     })
   );
