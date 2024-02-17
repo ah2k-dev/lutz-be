@@ -12,8 +12,9 @@ const sendMail = async (email, subject, html) => {
       },
     })
   );
+  console.log(html);
   await transport.sendMail({
-    from: "insightmeter@gmail.com",
+    from: "ah2k.dev@gmail.com",
     to: email,
     subject,
     html,

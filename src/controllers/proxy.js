@@ -2,6 +2,7 @@ const ErrorHandler = require("../utils/ErrorHandler");
 const SuccessHandler = require("../utils/SuccessHandler");
 const axios = require("axios");
 const sendMail = require("../utils/sendMail");
+const ejs = require("ejs");
 
 const proxy = async (req, res, next) => {
   // #swagger.tags = ['Proxy']
@@ -24,35 +25,41 @@ const proxy = async (req, res, next) => {
       }
     );
 
-    const htmlForMail = `
-      <h1>Following congigurations has been requested</h1>
-      <h2>Request</h2>
-      <table>
-        <tr>
-          <th>Key</th>
-          <th>Value</th>
-        </tr>
-        ${Object.keys(payload).map(
-          (key) => `
-            <tr>
-              <td>${key}</td>
-              <td>${payload[key]}</td>
-            </tr>
-          `
-        )}
-        ${Object.keys(extra).map(
-          (key) => `
-            <tr>
-              <td>${key}</td>
-              <td>${extra[key]}</td>
-            </tr>
-          `
-        )}
-      </table>
-    `;
+    // Render the email template
+    ejs.renderFile(
+      `${__dirname}/index.ejs`,
+      {
+        name: "JSON.stringify(payload)",
+        message: "JSON.stringify(response.data)",
+      },
+      async (err, html) => {
+        if (err) {
+          console.log("Error rendering template:", err);
+          return res.status(500).send("Internal Server Error");
+        }
 
-    // await sendMail("ah2k.dev@gmail.com", "Grundfos API Request", htmlForMail);
-    return SuccessHandler(response.data, 200, res);
+        // Send the email
+
+        await sendMail(
+          "naqi.atwork@gmail.com",
+          "Grundfos API Request",
+          html
+        );
+      }
+    );
+
+
+    return SuccessHandler(
+      {
+        message: "Request has been sent to Grundfos",
+        // data: {
+        //   response: "response",
+        // },
+        statusCode: 200,
+      },
+      200,
+      res
+    );
   } catch (error) {
     console.log(error);
     return ErrorHandler(error.message, 500, req, res);
