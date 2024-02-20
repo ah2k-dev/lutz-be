@@ -40,3 +40,10 @@
 {"date":"2024-02-17T14:15:22.900Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","method":"POST","service":"user-service","url":"/"}
 {"date":"2024-02-17T14:16:58.578Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","method":"POST","service":"user-service","url":"/"}
 {"date":"2024-02-17T14:17:06.727Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:09:05.155Z","level":"error","message":"Cannot read properties of undefined (reading 'inlet_outlet_config')","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:09:06.582Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:09:06.643Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:09:21.404Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:14:17.654Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:17:13.981Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:17:18.311Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}

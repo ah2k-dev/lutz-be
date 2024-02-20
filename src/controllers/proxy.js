@@ -9,6 +9,7 @@ const proxy = async (req, res, next) => {
   // #swagger.description = 'This endpoint allows you to make requests grundfos API'
   try {
     const { payload, extra } = req.body;
+    console.log("payload", payload);
     const urlencoded = new URLSearchParams();
     Object.keys(req.body).forEach((key) => {
       urlencoded.append(key, payload[key]);
@@ -29,8 +30,7 @@ const proxy = async (req, res, next) => {
     ejs.renderFile(
       `${__dirname}/index.ejs`,
       {
-        name: "JSON.stringify(payload)",
-        message: "JSON.stringify(response.data)",
+        configurations: { ...payload, ...extra },
       },
       async (err, html) => {
         if (err) {
@@ -40,14 +40,9 @@ const proxy = async (req, res, next) => {
 
         // Send the email
 
-        await sendMail(
-          "naqi.atwork@gmail.com",
-          "Grundfos API Request",
-          html
-        );
+        await sendMail("jamijamil3111@gmail.com", "Grundfos API Request", html);
       }
     );
-
 
     return SuccessHandler(
       {
