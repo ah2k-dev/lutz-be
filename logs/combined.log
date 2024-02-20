@@ -233,3 +233,61 @@
 {"date":"2024-02-20T17:50:33.169Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
 {"date":"2024-02-20T17:50:34.208Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
 {"date":"2024-02-20T17:50:34.263Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:22:07.784Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:22:08.032Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:22:09.351Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:22:09.378Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:35:11.964Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:35:13.124Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:35:17.938Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:35:17.952Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:35:18.789Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:35:18.807Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:40:26.954Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:40:28.036Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:40:39.945Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:40:39.969Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:40:40.809Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:40:40.825Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:41:31.253Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:41:31.383Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:41:32.267Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:41:32.308Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:42:10.009Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:42:10.212Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:42:14.106Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:42:14.114Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:42:40.879Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:42:41.044Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:44:22.632Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:44:22.862Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:44:26.865Z","level":"error","message":"response.json is not a function","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:44:26.874Z","level":"error","message":"response.json is not a function","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:45:00.896Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:45:01.061Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:45:05.386Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:45:05.393Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:45:42.152Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:45:42.270Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:45:46.562Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:45:46.579Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:46:07.568Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:46:07.790Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:46:11.703Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:46:11.716Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:46:48.389Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:46:48.557Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:46:52.356Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:46:52.369Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:47:06.548Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:47:06.686Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:47:10.300Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:47:10.328Z","level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'ClientRequest'\n    |     property 'socket' -> object with constructor 'TLSSocket'\n    --- property '_httpMessage' closes the circle","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:47:41.368Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:47:41.561Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:50:10.438Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:50:10.573Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:50:14.394Z","level":"error","message":"key is not defined","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:50:14.412Z","level":"error","message":"key is not defined","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T18:52:10.595Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T18:52:10.787Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}

@@ -8,11 +8,10 @@
   <body>
     <h1>Hello,</h1>
     <p>A user has requested following configurations:</p>
+    <!-- object.keys loop -->
     <ul>
-      // Loop through the configurations <% for (let i = 0; i <
-      configurations.length; i++) { %>
-      <li><%= configurations[i] %></li>
-      <% } %>
-    </ul>
+      <% Object.keys(configurations).forEach((key) => { %>
+        <li><%= key %>: <%= configurations[key] %></li>
+      <% }); %>
   </body>
 </html>

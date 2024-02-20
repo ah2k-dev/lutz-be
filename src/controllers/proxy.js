@@ -9,9 +9,8 @@ const proxy = async (req, res, next) => {
   // #swagger.description = 'This endpoint allows you to make requests grundfos API'
   try {
     const { payload, extra } = req.body;
-    console.log("payload", payload);
     const urlencoded = new URLSearchParams();
-    Object.keys(req.body).forEach((key) => {
+    Object.keys(payload).forEach((key) => {
       urlencoded.append(key, payload[key]);
     });
 
@@ -44,13 +43,12 @@ const proxy = async (req, res, next) => {
       }
     );
 
+    let description = response.data.description;
     return SuccessHandler(
       {
         message: "Request has been sent to Grundfos",
-        // data: {
-        //   response: "response",
-        // },
         statusCode: 200,
+        description,
       },
       200,
       res
