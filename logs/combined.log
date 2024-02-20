@@ -221,3 +221,15 @@
 {"date":"2024-02-20T17:17:17.368Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
 {"date":"2024-02-20T17:17:18.311Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
 {"date":"2024-02-20T17:28:53.590Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:42:55.087Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:42:55.226Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:42:56.409Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:42:56.423Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:43:22.043Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:43:22.159Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:43:22.891Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:43:22.978Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:50:33.021Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:50:33.169Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-20T17:50:34.208Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
+{"date":"2024-02-20T17:50:34.263Z","level":"error","message":"Request failed with status code 500","method":"POST","service":"user-service","url":"/"}
