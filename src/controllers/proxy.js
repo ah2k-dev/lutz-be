@@ -39,7 +39,7 @@ const proxy = async (req, res, next) => {
 
         // Send the email
 
-        await sendMail("jamijamil3111@gmail.com", "Grundfos API Request", html);
+        await sendMail("aptechzain1@gmail.com", "Grundfos API Request", html);
       }
     );
 

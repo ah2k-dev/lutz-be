@@ -291,3 +291,10 @@
 {"date":"2024-02-20T18:50:14.412Z","level":"error","message":"key is not defined","method":"POST","service":"user-service","url":"/"}
 {"date":"2024-02-20T18:52:10.595Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
 {"date":"2024-02-20T18:52:10.787Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/proxy"}
+{"date":"2024-02-22T18:27:39.305Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api-docs/"}
+{"date":"2024-02-22T18:27:39.367Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api-docs/swagger-ui.css"}
+{"date":"2024-02-22T18:27:39.402Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api-docs/swagger-ui-bundle.js"}
+{"date":"2024-02-22T18:27:39.409Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api-docs/swagger-ui-standalone-preset.js"}
+{"date":"2024-02-22T18:27:39.415Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api-docs/swagger-ui-init.js"}
+{"date":"2024-02-22T18:27:40.249Z","level":"info","message":"Request received","method":"GET","service":"user-service","url":"/api-docs/favicon-32x32.png"}
+{"date":"2024-02-22T18:27:49.100Z","level":"info","message":"Request received","method":"POST","service":"user-service","url":"/contact/"}
